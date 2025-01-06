@@ -67,7 +67,7 @@ export const About = () => {
               </div>
           </motion.div>
         </div>
-        <div className='Reason w-full md:h-1/4 flex flex-row'>
+        <div className='Reason_fullreason w-full md:h-1/4 flex flex-row'>
           {/* <div className='w-1/4 h-full hidden md:block'>
             <img className='w-52 h-44' src='portfolio_app/src/Assets/Images/Think.jpg'/>
           </div> */}
@@ -85,9 +85,4 @@ export const About = () => {
 export default About; 
 
 
-
-
-<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16 10 3-3m0 0-3-3m3 3H5v3m3 4-3 3m0 0 3 3m-3-3h14v-3"/>
-</svg>
 
