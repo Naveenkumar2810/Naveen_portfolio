@@ -67,7 +67,7 @@ export const About = () => {
               </div>
           </motion.div>
         </div>
-        <div className='Reasons w-full md:h-1/4 flex flex-row'>
+        <div className='Reasons_Explain w-full md:h-1/4 flex flex-row'>
           {/* <div className='w-1/4 h-full hidden md:block'>
             <img className='w-52 h-44' src='portfolio_app/src/Assets/Images/Think.jpg'/>
           </div> */}
