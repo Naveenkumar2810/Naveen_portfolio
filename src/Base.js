@@ -14,7 +14,7 @@ const Base = () => {
   // const router_layout=createBrowserRouter(createRoutesFromElements(
   //   <Route path='/' element={<Routerlayout/>}>
   //     <Routet path='About' element={<About/>}/>
-  //     <Route path='Education' element={<Education/>}/>
+  //     <Route path='Education' element={<Education/>}/>go
   //     <Route path='WorkEXP' element={<WorkExp/>}/>
   //     <Route path='Contact' element={<Contact/>}/>
   //   </Route>
@@ -51,5 +51,3 @@ const Base = () => {
   )
 }
 export default Base;
-
-

@@ -23,7 +23,7 @@ export const About = () => {
                   </span>
                   <div className='flex flex-col justify-center md:gap-1 gap-1 '>
                     <h1 className='text-heading font-bold text-left'>Python full stack </h1>
-                    <p className='text-light-gray text-left font-thin text-sm md:text-base md:font-normal leading-6 md:leading-0'>A full-stack Python app with Django handles backend logic, while the frontend uses HTML, CSS, and JavaScript.</p>
+                    <p className='text-light-gray text-left font-thin text-sm md:text-base md:font-normal leading-6 md:leading-0'>A full-stack Python app with Django handles backend logic with jwt token based authentication, while the frontend uses React .</p>
                   </div>
               </div>
           </motion.div>

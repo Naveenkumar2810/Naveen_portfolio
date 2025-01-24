@@ -119,16 +119,19 @@ return (
                   <h1 className='bg-icon shadow-icon-sd text-xl text-cus-yell text-bold w-full rounded-md mt-2'>React Development</h1>
                   <div className='w-auto h-auto  p-8'>
                     <span className='w-20 h-20 bg-icon p-4 rounded-lg text-cus-yell shadow-icon-sd flex justify-center items-center'>
-                      <svg class="w-16 h-16 text-gray-800 dark:text-cus-yell" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor"  d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="react" fill='hsl(45, 100%, 72%)'>
+                        <path d="M12 17c-6.729 0-12-2.196-12-5s5.271-5 12-5 12 2.196 12 5-5.271 5-12 5zm0-9C5.518 8 1 10.108 1 12s4.518 4 11 4 11-2.108 11-4-4.518-4-11-4z"></path>
+                        <path d="M7.671 23.001c-.479 0-.91-.118-1.289-.354C4 21.165 4.812 15.329 8.229 9.363c2.51-4.383 5.745-7.621 8.242-8.251.833-.208 1.553-.128 2.147.24 2.382 1.483 1.57 7.319-1.847 13.285-2.51 4.383-5.745 7.621-8.242 8.251a3.553 3.553 0 0 1-.858.113zm-.761-1.203c.354.221.816.26 1.374.12 2.212-.558 5.274-3.684 7.618-7.777 3.31-5.778 3.809-10.93 2.188-11.938-.354-.221-.816-.261-1.374-.12-2.212.558-5.274 3.684-7.618 7.777-3.31 5.778-3.809 10.929-2.188 11.938z"></path>
+                        <path d="M16.329 23.001c-.271 0-.557-.038-.858-.113-2.497-.63-5.732-3.868-8.242-8.251C3.812 8.671 3 2.835 5.382 1.353c.593-.368 1.315-.448 2.147-.24 2.497.63 5.732 3.868 8.242 8.251C19.188 15.33 20 21.166 17.619 22.648c-.38.235-.811.353-1.29.353zm1.025-.778h.01-.01zM6.677 2a1.42 1.42 0 0 0-.767.202C4.289 3.211 4.788 8.362 8.098 14.14c2.344 4.094 5.406 7.22 7.618 7.777.558.14 1.02.101 1.374-.12 1.621-1.009 1.122-6.16-2.188-11.938-2.344-4.094-5.406-7.22-7.618-7.777A2.481 2.481 0 0 0 6.677 2z"></path>
+                        <path d="M12 14.5c-1.378 0-2.5-1.121-2.5-2.5s1.122-2.5 2.5-2.5 2.5 1.121 2.5 2.5-1.122 2.5-2.5 2.5zm0-4c-.827 0-1.5.673-1.5 1.5s.673 1.5 1.5 1.5 1.5-.673 1.5-1.5-.673-1.5-1.5-1.5z"></path>
                       </svg>
                     </span>
                   </div>
                   <div className='w-auto h-auto  p-8'>
                       <span className='w-20 h-20 bg-icon p-4 rounded-lg text-cus-yell shadow-icon-sd flex justify-center items-center'>
-                        <svg class="w-16 h-16 text-gray-800 dark:text-cus-yell" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="m3 2 1.578 17.834L12 22l7.468-2.165L21 2H3Zm13.3 14.722-4.293 1.204H12l-4.297-1.204-.297-3.167h2.108l.15 1.526 2.335.639 2.34-.64.245-3.05h-7.27l-.187-2.006h7.64l.174-2.006H6.924l-.176-2.006h10.506l-.954 10.71Z"/>
-                        </svg>
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+                           <text x="50%" y="50%" text-anchor="middle" font-size="60" dy=".3em" fill="hsl(45, 100%, 72%)" font-family="Arial, sans-serif">Redux</text>
+                         </svg>
                       </span>
                   </div>
                   <div className='w-auto h-auto  p-8'>
@@ -158,8 +161,8 @@ return (
                   </div>
                   <div className='w-auto h-auto  p-8' title="Apache Solr">
                     <span className='w-20 h-20 bg-icon p-4 rounded-lg text-cus-yell shadow-icon-sd flex justify-center items-center'>
-                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
-                        <text x="50%" y="50%" text-anchor="middle" font-size="60" dy=".3em" fill="hsl(45, 100%, 72%)" font-family="Arial, sans-serif">Redux</text>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+                        <text x="65%" y="65%" text-anchor="middle" font-size="60" dy=".3em" fill="hsl(45, 100%, 72%)" font-family="Arial, sans-serif">React Lib</text>
                       </svg>
                     </span>
                   </div>
