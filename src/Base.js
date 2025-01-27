@@ -31,7 +31,7 @@ const Base = () => {
            window.innerWidth <770 &&<Min_Profile/>
           }
         </div> 
-        <div className='W-full md:row-span-1 sticky bottom-0 border border-white justify-center py-2 md:block hidden'>
+        <div className='W-full md:row-span-1 sticky bottom-0 justify-center py-2 md:block hidden'>
          <Navbar/>
         </div>
         <div className='W-full md:row-span-11'>

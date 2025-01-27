@@ -28,7 +28,7 @@ const Education = () => {
                 <div className='w-3/4 flex flex-col text-left '>
                   <h1 className={`font-bold text-heading relative `}>Secondary School Leaving Certificate</h1>
                   <span>2015-2016</span>
-                  <span>Percentage :94</span>
+                  <span>Percentage :94%</span>
                   <span>E.B.G Matric hr secondary school,Madurai</span>
                 </div>
               </motion.li>
@@ -43,7 +43,7 @@ const Education = () => {
                 <div className='w-3/4 flex flex-col text-left '>
                   <h1 className={`font-bold text-heading relative `}>Higher Secondary Certificate</h1>
                   <span>2017-2018</span>
-                  <span>Percentage :94</span>
+                  <span>Percentage :75%</span>
                   <span>E.B.G Matric hr secondary school,Madurai</span>
                 </div>
               </motion.li>
@@ -56,18 +56,18 @@ const Education = () => {
                   </span>
                 </div>
                 <div className='w-3/4 flex flex-col text-left '>
-                  <h1 className={`font-bold text-heading relative `}>Graduate(B.E Agri)</h1>
+                  <h1 className={`font-bold text-heading relative `}>Graduate(B.E)</h1>
                   <span>2018-2022</span>
-                  <span>Percentage :94</span>
+                  <span>Percentage :83%</span>
                   <span>Sethu Institute of Technology</span>
                 </div>
               </motion.li>  
             </ul>
-            <div className='reason w-full md:w-1/2  p-6'>
+            {/* <div className='reason w-full md:w-1/2  p-6'>
               <motion.p initial={{opacity:0,scale:1,y:100}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1.25,type:'spring',stiffness:120}} className='h-full md:w-3/4 text-left md:text-base font-thin text-light-gray md:leading-8 leading-7 md:p-6 p-4 mx-auto bg-card shadow-card-sd rounded-md'>
                 Coming from an agricultural background, some may wonder why I chose a career in IT. While agriculture shaped my roots, I was drawn to IT's dynamic nature and its potential to revolutionize industries. Inspired by this, I immersed myself in learning emerging technologies, built a strong foundation with guidance from experts, and honed my skills through hands-on projects. This blend of my upbringing's discipline with technology's innovation fueled my passion for problem-solving and creating impactful solutions.
               </motion.p>
-            </div>
+            </div> */}
         </div>
         <div className='Resume w-full min-h-2/5'>
             <div className='w-full  p-3 flex flex-row'>
