@@ -21,7 +21,7 @@ const Min_Profile = () => {
         <div className='skill w-2/3 h-auto flex flex-col gap-4'>
           <h3 className='text-2xl font-bold  w-full text-center mt-2'>Naveen kumar</h3>
           <div className='text-2xl font-bold  w-full flex flex-row gap-4 justify-center'>
-            <span className='bg-icon shadow-icon-sd p-2 text-bold rounded-full font-normal text-[14px] w-3/5 ml-2 text-cus-yell'>FULLSTACK</span>
+            <span className='bg-icon shadow-icon-sd p-2 text-bold rounded-full font-normal text-[14px] w-3/5 ml-2 text-cus-yell'>EXP : 8 months</span>
             <div onClick={()=> drop_down()}  className='w-1/5 p-2 flex gap-12 bg-icon shadow-icon-sd rounded-lg justify-center'>
               <span className='w-auto h-auto p-1 rounded-md text-cus-yell flex justify-center items-center'>
               {direction.arrow?
