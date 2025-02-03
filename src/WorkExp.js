@@ -116,7 +116,7 @@ return (
                   </div>
               </div>
               <div className='React-dev min-w-full h-auto  md:h-full mx-auto Skill_icons flex flex-row gap-3 md:gap-8 justify-center bg-icon shadow-icon-sd border-[1px] border-br rounded-md flex-wrap'>
-                  <h1 className='bg-icon shadow-icon-sd text-xl text-cus-yell text-bold w-full rounded-md mt-2'>React Development</h1>
+                  <h1 className='bg-icon shadow-icon-sd text-xl text-cus-yell text-bold w-full rounded-md mt-2'>React Applications</h1>
                   <div className='React w-auto h-auto  p-8'>
                     <span className='w-20 h-20 bg-icon p-4 rounded-lg text-cus-yell shadow-icon-sd flex justify-center items-center'>
                        <svg className="w-12 h-12" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -166,21 +166,21 @@ return (
         <div className='w-full h-1/2 flex flex-col md:flex-row md:px-5 p-1 gap-5 text-light-gray mt-3'>
           <motion.div initial={{opacity:0,scale:1,y:100}} animate={{opacity:1,scale:1,y:0}} transition={{delay:0.5,type:'spring',stiffness:120}} className='w-full md:w-1/3 h-5/6 my-auto bg-card shadow-card-sd rounded-md p-3 px-6 '>
             <h3 className=' text-cus-yell text-center text-bold text-xl w-fit px-2 mx-auto rounded-lg'>ABOUT PROJECT</h3>
-            <p className='text-white text-left my-6 md:indent-10 leading-8 font-light'>We manage two primary applications focused on the intellectual property of individuals and companies.
+            <p className='text-white text-left my-6 md:indent-10 leading-7 md:leading-8 font-light text-sm md:text-base'>We manage two primary applications focused on the intellectual property of individuals and companies.
                One application securely handles sensitive and highly confidential data related to intellectual property.
                The other application manages legal proceedings, including daily court updates, from all courts across the USA.
             </p>
           </motion.div>
           <motion.div initial={{opacity:0,scale:1,y:100}} animate={{opacity:1,scale:1,y:0}} transition={{delay:0.75,type:'spring',stiffness:120}} className='md:w-1/3 h-5/6 my-auto bg-card shadow-card-sd rounded-md p-3 px-6'>
             <h3 className=' text-cus-yell text-center text-bold text-xl w-fit px-2 mx-auto rounded-lg'>WHAT WE DID ?</h3>
-            <p className='text-white text-left my-6 md:indent-10 leading-7 font-light'>The app handles 120 million property rights records, each governed by country-specific laws and unique codes. To enhance search efficiency, 
+            <p className='text-white text-left my-6 md:indent-10 leading-7 md:leading-7 font-light text-sm md:text-base'>The app handles 120 million property rights records, each governed by country-specific laws and unique codes. To enhance search efficiency, 
               we utilize Solr queries and advanced filters for fast data retrieval. 
               Given the sensitive nature of the data, we ensure it remains up-to-date. In case of incremental data failures, Python scripts are used to process and resolve issues quickly.
             </p>
           </motion.div>
           <motion.div initial={{opacity:0,scale:1,y:100}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1,type:'spring',stiffness:120}} className='md:w-1/3 h-5/6 my-auto bg-card shadow-card-sd rounded-md p-3 px-6'>
             <h3 className=' text-cus-yell text-center text-bold text-xl w-fit px-2 mx-auto rounded-lg'>HOW WE DO ?</h3>
-            <p className='text-white text-left md:indent-10 leading-7 my-6 font-light'>
+            <p className='text-white text-left md:indent-10 leading-7 md:leading-8 my-6 font-light text-sm md:text-base'>
               We utilize Angular for the frontend and Django Rest Framework for backend authentication and data fetching. Our efficient ETL processes are designed using Python scripts, leveraging PostgreSQL and Solr queries for rapid data retrieval, while Spark jobs provide scalability and performance optimization..
             </p>
           </motion.div>

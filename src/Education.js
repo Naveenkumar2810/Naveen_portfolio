@@ -14,7 +14,7 @@ const Education = () => {
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
                 </svg>
               </span>
-              <h1 className='p-4 text-2xl font-bold text-heading'>Education</h1>
+              <h1 className='p-4 md:text-2xl text-lg font-bold text-heading'>Education</h1>
             </motion.div> 
             <ul className='text-white-1 h-full flex flex-col gap-6 text-light-gray rounded-md md:w-1/2 w-full p-4 '>
               <motion.li initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:0.5,type:'spring',stiffness:120}} className={` sslc md:w-4/5 w-full h-full mx-auto flex flex-row relative bg-card shadow-card-sd p-4 rounded-md gap-1 justify-center`}>
@@ -25,8 +25,8 @@ const Education = () => {
                     </svg>
                   </span>
                 </div>
-                <div className='w-3/4 flex flex-col text-left '>
-                  <h1 className={`font-bold text-heading relative `}>Secondary School Leaving Certificate</h1>
+                <div className='w-3/4 flex flex-col text-left text-sm md:text-base'>
+                  <h1 className={`font-bold text-heading relative text-sm md:text-base`}>Secondary School Leaving Certificate</h1>
                   <span>2015-2016</span>
                   <span>Percentage :94%</span>
                   <span>E.B.G Matric hr secondary school,Madurai</span>
@@ -40,7 +40,7 @@ const Education = () => {
                     </svg>
                   </span>
                 </div>
-                <div className='w-3/4 flex flex-col text-left '>
+                <div className='w-3/4 flex flex-col text-left text-sm md:text-base'>
                   <h1 className={`font-bold text-heading relative `}>Higher Secondary Certificate</h1>
                   <span>2017-2018</span>
                   <span>Percentage :75%</span>
@@ -55,8 +55,8 @@ const Education = () => {
                     </svg>
                   </span>
                 </div>
-                <div className='w-3/4 flex flex-col text-left '>
-                  <h1 className={`font-bold text-heading relative `}>Graduate(B.E)</h1>
+                <div className='w-3/4 flex flex-col text-left text-sm md:text-base'>
+                  <h1 className={`font-bold text-heading relative text-sm md:text-base`}>Graduate(B.E)</h1>
                   <span>2018-2022</span>
                   <span>Percentage :83%</span>
                   <span>Sethu Institute of Technology</span>
@@ -76,11 +76,11 @@ const Education = () => {
                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                  </svg>
                </motion.span>
-               <motion.h1 initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1.5,type:'spring',stiffness:120}} className='p-3 text-2xl font-bold text-heading'>Resume</motion.h1>
+               <motion.h1 initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1.5,type:'spring',stiffness:120}} className='p-3 md:text-2xl text-lg font-bold text-heading'>Resume</motion.h1>
             </div>
             <div className='Resume-download md:w-1/2 w-full h-38 mx-auto my-auto items-center md:p-4 flex p-4 '>
                <motion.span initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1.75,type:'spring',stiffness:120}} className='md:w-fit w-full h-auto text-cus-yell p-3 mx-auto flex justify-center rounded-md bg-card shadow-card-sd flex-col '>
-                  <h1 className='text-heading text-xl font-bold text-left'>click to download resume </h1>
+                  <h1 className='text-heading md:text-xl text-base font-bold text-left'>click to download resume </h1>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-20">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m9 13.5 3 3m0 0 3-3m-3 3v-6m1.06-4.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
                  </svg>
