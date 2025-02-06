@@ -37,7 +37,7 @@ const Base = () => {
         </div>
         <div className='W-full md:row-span-11'>
             <Routes>
-              <Route path="/React_portfolio" element={<About/>} />
+              <Route path="/Naveen_portfolio" element={<About/>} />
               <Route path="/education" element={<Education />} />
               <Route path="/workexp" element={<WorkExp />} />
               <Route path="/Project" element={<Project />} />
