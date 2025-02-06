@@ -3,8 +3,8 @@ import {motion} from 'framer-motion'
 
 const Education = () => {
 
-  const bef_line =window.innerWidth<700?"before:content-[''] before:absolute before:top-2 before:left-[-20px]  before:h-[343px] before:h-[290px] before:w-[1px] before:bg-cus-yel":''
-  const bef_dot = window.innerWidth<700?"before:content-[''] before:absolute before:top-2 before:left-[-23px]  before:h-[8px] before:w-[8px] before:bg-cus-yell before:rounded-full before:shadow-dot":''
+  // const bef_line =window.innerWidth<700?"before:content-[''] before:absolute before:top-2 before:left-[-20px]  before:h-[343px] before:h-[290px] before:w-[1px] before:bg-cus-yel":''
+  // const bef_dot = window.innerWidth<700?"before:content-[''] before:absolute before:top-2 before:left-[-23px]  before:h-[8px] before:w-[8px] before:bg-cus-yell before:rounded-full before:shadow-dot":''
   return (
     <div className='w-full min-h-full p-1'>
         <div className='Edu-cards w-full min-h-3/5 flex flex-row flex-wrap'>
@@ -79,7 +79,7 @@ const Education = () => {
                <motion.h1 initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1.5,type:'spring',stiffness:120}} className='p-3 md:text-2xl text-lg font-bold text-heading'>Resume</motion.h1>
             </div>
             <div className='Resume-download md:w-1/3 w-2/3 h-38 mx-auto my-auto items-center md:p-4 flex p-4'>
-             <a className='md:w-fit w-full h-auto'>
+             <a className='md:w-fit w-full h-auto' href='https://naveen28.s3.eu-north-1.amazonaws.com/Naveenkumar_resume.pdf' download target='_blank'>
                <motion.span initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1.75,type:'spring',stiffness:120}} className='md:w-fit w-fit h-auto text-cus-yell p-3 mx-auto flex justify-center rounded-full bg-card shadow-card-sd flex-col '>
                   <svg class="w-24 h-24 text-cus-yell" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                     <path fill-rule="evenodd" d="M13 11.15V4a1 1 0 1 0-2 0v7.15L8.78 8.374a1 1 0 1 0-1.56 1.25l4 5a1 1 0 0 0 1.56 0l4-5a1 1 0 1 0-1.56-1.25L13 11.15Z" clip-rule="evenodd"/>
