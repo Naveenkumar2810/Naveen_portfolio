@@ -3,8 +3,8 @@ import {motion} from 'framer-motion'
 
 const WorkExp = () => {
 return (
-    <div className='w-full h-full flex flex-col mt-3 md:mt-0 p-2 px-3 overflow-hidden'>
-        <div className='Exp-and-skill w-full h-1/2 flex flex-row'>
+    <div className='w-full h-full flex flex-col md:mt-0 p-2 px-3 overflow-hidden'>
+        <div className='Exp-and-skill w-full h-[calc(60%)] flex flex-col'>
             {/* <div className='Exp-details w-2/5 h-full border border-white flex justify-center items-center'>
               <div className='w-5/6 h-5/6 border border-white flex flex-col text-light-gray justify-center px-6 gap-4'>
                   <h1 className='font-bold text-heading text-left'>Previous Company: Hash Agile Technologies</h1>
@@ -13,8 +13,9 @@ return (
                   <span className='text-left'>Role: Part of a 2 Global web site</span>
               </div>
             </div> */}
-            <div className='scrollable-div md w-full md:w-1/2 h-auto md:h-full  p-4 md:p-4 flex md:flex-row gap-20 overflow-x-scroll overflow-y-hidden mx-auto flex-nowrap border-[1px] border-br rounded-md'>
-              <div className='python-full min-w-full h-auto  md:h-full mx-auto Skill_icons flex flex-row gap-3 md:gap-8 justify-center bg-icon shadow-icon-sd border-[1px] border-br rounded-md flex-wrap'>
+            <motion.h1 initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:0.25,type:'spring',stiffness:120}} className='bg-icon shadow-icon-sd text-xl text-cus-yell text-bold mt-2 w-fit rounded-lg md:ml-7'>Skills & Work Experience</motion.h1>
+            <div className='scrollable-div md w-full md:w-1/2 h-auto md:h-full p-4 md:p-4 flex md:flex-row gap-20 mx-auto overflow-x-scroll overflow-y-hidden flex-nowrap border-[1px] border-br rounded-md mt-3'>
+              <div className='python-full min-w-full h-auto  md:h-auto mx-auto Skill_icons flex flex-row gap-3 md:gap-8 justify-center bg-icon shadow-icon-sd border-[1px] border-br rounded-md flex-wrap'>
                   <motion.h1 initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:0.25,type:'spring',stiffness:120}} className='bg-icon shadow-icon-sd text-xl text-cus-yell text-bold w-full rounded-md mt-2'>Django Web Applications</motion.h1>
                   <motion.div initial={{opacity:0,scale:0,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:0.5,type:'spring',stiffness:120}} className='w-auto h-auto p-8' title='Python'>
                     <span className='w-20 h-20 bg-icon p-4 rounded-lg text-cus-yell shadow-icon-sd flex justify-center items-center'>
@@ -163,25 +164,21 @@ return (
               </div>
             </div>
         </div>
-        <div className='w-full h-1/2 flex flex-col md:flex-row md:px-5 p-1 gap-5 text-light-gray mt-3'>
+        <div className='w-full h-[calc(40%)] flex flex-col md:flex-row md:px-5 p-1 gap-5 text-light-gray mt-3'>
           <motion.div initial={{opacity:0,scale:1,y:100}} animate={{opacity:1,scale:1,y:0}} transition={{delay:0.5,type:'spring',stiffness:120}} className='w-full md:w-1/3 h-5/6 my-auto bg-card shadow-card-sd rounded-md p-3 px-6 '>
             <h3 className=' text-cus-yell text-center text-bold text-xl w-fit px-2 mx-auto rounded-lg'>ABOUT PROJECT</h3>
-            <p className='text-white text-left my-6 md:indent-10 leading-7 md:leading-8 font-light text-sm md:text-base'>We manage two primary applications focused on the intellectual property of individuals and companies.
-               One application securely handles sensitive and highly confidential data related to intellectual property.
-               The other application manages legal proceedings, including daily court updates, from all courts across the USA.
+            <p className='text-white text-left my-6 md:indent-8 leading-7 md:leading-8 font-light text-sm md:text-base'>We manage two applications: one securely handles confidential intellectual property data, while the other manages legal proceedings with daily court updates across the USA. Both ensure accurate and up-to-date information for legal proceedings.
             </p>
           </motion.div>
           <motion.div initial={{opacity:0,scale:1,y:100}} animate={{opacity:1,scale:1,y:0}} transition={{delay:0.75,type:'spring',stiffness:120}} className='md:w-1/3 h-5/6 my-auto bg-card shadow-card-sd rounded-md p-3 px-6'>
             <h3 className=' text-cus-yell text-center text-bold text-xl w-fit px-2 mx-auto rounded-lg'>WHAT WE DID ?</h3>
-            <p className='text-white text-left my-6 md:indent-10 leading-7 md:leading-7 font-light text-sm md:text-base'>The app handles 120 million property rights records, each governed by country-specific laws and unique codes. To enhance search efficiency, 
-              we utilize Solr queries and advanced filters for fast data retrieval. 
-              Given the sensitive nature of the data, we ensure it remains up-to-date. In case of incremental data failures, Python scripts are used to process and resolve issues quickly.
+            <p className='text-white text-left my-6 md:indent-10 leading-7 md:leading-8 font-light text-sm md:text-base'>The app manages 120 million property rights records, governed by country-specific laws and codes. Solr queries and advanced filters ensure fast retrieval, while Python scripts handle incremental data failures to keep records up-to-date.
             </p>
           </motion.div>
           <motion.div initial={{opacity:0,scale:1,y:100}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1,type:'spring',stiffness:120}} className='md:w-1/3 h-5/6 my-auto bg-card shadow-card-sd rounded-md p-3 px-6'>
             <h3 className=' text-cus-yell text-center text-bold text-xl w-fit px-2 mx-auto rounded-lg'>HOW WE DO ?</h3>
             <p className='text-white text-left md:indent-10 leading-7 md:leading-8 my-6 font-light text-sm md:text-base'>
-              We utilize Angular for the frontend and Django Rest Framework for backend authentication and data fetching. Our efficient ETL processes are designed using Python scripts, leveraging PostgreSQL and Solr queries for rapid data retrieval, while Spark jobs provide scalability and performance optimization..
+            We use Angular for the frontend and Django Rest Framework for backend authentication and data fetching. Python-based ETL processes leverage PostgreSQL and Solr for fast retrieval, while Spark ensures scalability and performance.
             </p>
           </motion.div>
         </div>

@@ -3,8 +3,9 @@ import Profile from './Profile';
 import About from './About';
 import Education from './Education';
 import WorkExp from './WorkExp';
+import Project from './Project';
 import Contact from './Contact';
-import Min_Profile from './Min_prof';
+import Min_prof from './Min_prof';
 // import Routerlayout from './Routerlayout';
 import {Routes,Route} from 'react-router-dom'
 import Navbar from './Navbar';
@@ -28,7 +29,7 @@ const Base = () => {
       <div className='pages-right md:grid grid-rows-12 md:w-3/4 w-full md:min-h-full min-h-screen h-auto bg-page border-[1px] border-br md:rounded-lg flex flex-col '>
         <div className='w-full p-2 md:p-6 mt-2 h-auto md:row-span-12 md:hidden'>
           {
-           window.innerWidth <770 &&<Min_Profile/>
+           window.innerWidth <770 &&<Min_prof/>
           }
         </div> 
         <div className='W-full md:row-span-1 sticky bottom-0 justify-center py-2 md:block hidden'>
@@ -39,6 +40,7 @@ const Base = () => {
               <Route path="/React_portfolio" element={<About/>} />
               <Route path="/education" element={<Education />} />
               <Route path="/workexp" element={<WorkExp />} />
+              <Route path="/Project" element={<Project />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
         </div>

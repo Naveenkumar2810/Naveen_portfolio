@@ -78,13 +78,15 @@ const Education = () => {
                </motion.span>
                <motion.h1 initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1.5,type:'spring',stiffness:120}} className='p-3 md:text-2xl text-lg font-bold text-heading'>Resume</motion.h1>
             </div>
-            <div className='Resume-download md:w-1/2 w-full h-38 mx-auto my-auto items-center md:p-4 flex p-4 '>
-               <motion.span initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1.75,type:'spring',stiffness:120}} className='md:w-fit w-full h-auto text-cus-yell p-3 mx-auto flex justify-center rounded-md bg-card shadow-card-sd flex-col '>
-                  <h1 className='text-heading md:text-xl text-base font-bold text-left'>click to download resume </h1>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-20">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m9 13.5 3 3m0 0 3-3m-3 3v-6m1.06-4.19-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+            <div className='Resume-download md:w-1/3 w-2/3 h-38 mx-auto my-auto items-center md:p-4 flex p-4'>
+             <a className='md:w-fit w-full h-auto'>
+               <motion.span initial={{opacity:0,scale:1,y:50}} animate={{opacity:1,scale:1,y:0}} transition={{delay:1.75,type:'spring',stiffness:120}} className='md:w-fit w-fit h-auto text-cus-yell p-3 mx-auto flex justify-center rounded-full bg-card shadow-card-sd flex-col '>
+                  <svg class="w-24 h-24 text-cus-yell" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M13 11.15V4a1 1 0 1 0-2 0v7.15L8.78 8.374a1 1 0 1 0-1.56 1.25l4 5a1 1 0 0 0 1.56 0l4-5a1 1 0 1 0-1.56-1.25L13 11.15Z" clip-rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M9.657 15.874 7.358 13H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-2.358l-2.3 2.874a3 3 0 0 1-4.685 0ZM17 16a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H17Z" clip-rule="evenodd"/>
                  </svg>
                </motion.span>
+             </a> 
             </div>
         </div>
     </div>

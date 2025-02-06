@@ -38,7 +38,7 @@ const Contact = () => {
         }
    }
   else{
-      if(value.length>10){
+      if(value.length>4){
       e.target.style.border ='1px solid green'
       setField({...fields,message:true})
       }
@@ -70,9 +70,9 @@ const Contact = () => {
     <div className='w-full min-h-full flex flex-col justify-center items-center mt-5 md:mt-0'>
         <h1 className='w-full md:w-1/2 md:text-4xl text-xl text-cus-yell items-center'>Contact Form</h1>
         <form onSubmit={(e)=> form_submit(e)}  className=' w-full md:w-1/2 h-full md:h-1/2 justify-center text-white-1 p-5 px-8 flex flex-row flex-wrap md:gap-2 gap-5 '>
-            <input onChange={(e)=>Check_input(e)} name='fname' className='w-full md:w-72 bg-highlight1 md:p-5 p-3 border-b-[1px] border-br rounded-lg focus:outline-none focus:border-cus-yell' type='text' placeholder='Full Name'/>
-            <input onChange={(e)=>Check_input(e)} name='email' className='w-full md:w-1/2 bg-highlight1 md:p-5 p-3 border-b-[1px] border-br rounded-lg focus:outline-none focus:border-cus-yell' type='Email' placeholder='Email'/>
-            <input onChange={(e)=>Check_input(e)} name='message' className='w-full md:w-full bg-highlight1 md:p-6 p-4 border-b-[1px] border-br rounded-lg h-32 focus:outline-none focus:border-cus-yell md:mt-2' type='text' placeholder='Message'/>
+            <input onChange={(e)=>Check_input(e)} name='fname' className='w-full md:w-72 bg-highlight1 md:p-5 p-3 border-b-[1px] border-br rounded-lg text-white focus:outline-none focus:ring-0 focus:border-none' type='text' placeholder='Your Name' required/>
+            <input onChange={(e)=>Check_input(e)} name='email' className='w-full md:w-1/2 bg-highlight1 md:p-5 p-3 border-b-[1px] border-br rounded-lg text-white focus:outline-none focus:ring-0 focus:border-none' type='Email' placeholder='Your Email' required/>
+            <input onChange={(e)=>Check_input(e)} name='message' className='w-full md:w-full bg-highlight1 md:p-6 p-4 border-b-[1px] border-br rounded-lg h-32 md:mt-2 text-white focus:outline-none focus:ring-0 focus:border-none' type='text' placeholder='Message' required/>
             <div className='phone w-full h-30 p-2 flex justify-center md:justify-start'>
               <span className='w-1/2 md:w-1/4 md:h-16 h-12 p-1 rounded-lg text-cus-yell  flex justify-center items-center gap-4 bg-icon shadow-icon-sd'>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="size-6">

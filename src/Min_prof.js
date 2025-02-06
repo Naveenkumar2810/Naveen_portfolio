@@ -1,6 +1,6 @@
 import {React,useState} from 'react'
 
-const Min_Profile = () => {
+const Min_prof = () => {
   const [direction, setDirection] = useState({
     arrow:true,
     height:'h-auto'
@@ -97,4 +97,4 @@ const Min_Profile = () => {
   )
   }
 
-export default Min_Profile;
+export default Min_prof;
